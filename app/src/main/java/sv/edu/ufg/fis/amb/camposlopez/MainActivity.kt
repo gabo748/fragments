@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         navegacion = findViewById(R.id.nav_menu)
-        navegacion.setOnNavigationItemReselectedListener { opcionMenuSeleccionada }
+        navegacion.setOnNavigationItemReselectedListener(opcionMenuSeleccionada)
 
     }
 
